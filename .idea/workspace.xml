@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68212891-d447-46d3-8bb6-c912e04595fd" name="Changes" comment="Server/Client TCP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBar/ClientBar.java" afterDir="false" />
+    <list default="true" id="68212891-d447-46d3-8bb6-c912e04595fd" name="Changes" comment="ClientBar.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708609998271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ClientBar.java">
+      <created>1708611547313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708611547313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +86,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Server/Client UPD" />
     <MESSAGE value="Server/Client TCP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server/Client TCP" />
+    <MESSAGE value="ClientBar.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClientBar.java" />
   </component>
 </project>
