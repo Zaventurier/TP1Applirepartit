@@ -6,7 +6,7 @@ import java.net.*;
 public class Client {
     public static void main(String[] args) {
         try {
-            // Connexion au Server_1
+            // Connexion au  Server_1
             Socket socket1 = new Socket("localhost", 1111);
             BufferedReader reader1 = new BufferedReader(new InputStreamReader(socket1.getInputStream()));
             PrintWriter writer1 = new PrintWriter(socket1.getOutputStream(), true);
