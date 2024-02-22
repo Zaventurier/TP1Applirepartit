@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68212891-d447-46d3-8bb6-c912e04595fd" name="Changes" comment="ClientBar.java">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaBar/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBar/ClientBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBar/ClientBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBar/ServerBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBar/ServerBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TCP_UDP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TCP_UDP/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,40 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ClientBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBar.ClientBar" />
+      <module name="TP1Applirepartit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TCP_UDP.Main" />
+      <module name="TP1Applirepartit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TCP_UDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ClientBar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
