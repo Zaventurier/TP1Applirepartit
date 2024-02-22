@@ -1,4 +1,4 @@
-package Client;
+package TCP_UDP.Client;
 
 import java.io.*;
 import java.net.*;
