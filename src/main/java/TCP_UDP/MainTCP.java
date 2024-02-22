@@ -1,5 +1,7 @@
-import Client.ClientTCP;
-import Server.ServerTCP;
+package TCP_UDP;
+
+import TCP_UDP.Client.ClientTCP;
+import TCP_UDP.Server.ServerTCP;
 
 public class MainTCP {
     public static void main(String[] args) {
