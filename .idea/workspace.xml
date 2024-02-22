@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68212891-d447-46d3-8bb6-c912e04595fd" name="Changes" comment="Modification des ports">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaBar/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/ClientTCP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/ServerTCP.java" beforeDir="false" />
-    </list>
+    <list default="true" id="68212891-d447-46d3-8bb6-c912e04595fd" name="Changes" comment="Servers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
