@@ -2,11 +2,11 @@ package JavaBar;
 
 public class Main {
     public static void main(String[] args) {
-        // Lancer le serveur UDP
+        // Lancer le serveurBar
         Thread serverThread = new Thread(() -> ServerBar.main(new String[]{}));
         serverThread.start();
 
-        // Lancer le client UDP
+        // Lancer le clientBar
         Thread clientThread = new Thread(() -> ClientBar.main(new String[]{}));
         clientThread.start();
 
