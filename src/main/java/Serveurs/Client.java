@@ -23,7 +23,7 @@ public class Client {
             socket1.close();
 
             // Connexion au Server_2
-            Socket socket2 = new Socket("localhost", 2222);
+            Socket socket2 = new Socket("localhost", 1111);
             BufferedReader reader2 = new BufferedReader(new InputStreamReader(socket2.getInputStream()));
             PrintWriter writer2 = new PrintWriter(socket2.getOutputStream(), true);
 

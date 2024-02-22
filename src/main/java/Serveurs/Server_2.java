@@ -1,34 +1,56 @@
 package Serveurs;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.net.ServerSocket;
-import java.net.Socket;
+import java.io.*;
+import java.net.*;
 
 public class Server_2 {
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(1111);
-
-            System.out.println("Serveur TCP en attente...");
+            System.out.println("Server_2 waiting for client on port 1111...");
 
             while (true) {
-                Socket clientSocket = serverSocket.accept();
+                Socket socket = serverSocket.accept();
+                System.out.println("Client connected to Server_2");
 
-                PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-                BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-
-                String message = in.readLine();
-                System.out.println("Message reçu du client : " + message);
-
-                String responseMessage = "Hello World";
-                out.println(responseMessage);
-
-                clientSocket.close();
+                // Gérer la connexion avec le client
+                Server_2Handler handler = new Server_2Handler(socket);
+                new Thread(handler).start();
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+}
+
+class Server_2Handler implements Runnable {
+    private Socket socket;
+
+    public Server_2Handler(Socket socket) {
+        this.socket = socket;
+    }
+
+    @Override
+    public void run() {
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
+
+            // Recevoir la chaîne du client
+            String clientInput = reader.readLine();
+
+            // Supprimer les ';' de la chaîne
+            String result = deletePunct(clientInput);
+
+            // Envoyer la chaîne modifiée au client
+            writer.println(result);
+
+            socket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String deletePunct(String str) {
+        return str.replace(";", "");
     }
 }
