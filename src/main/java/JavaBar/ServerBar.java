@@ -10,7 +10,7 @@ public class ServerBar {
 
             try {
                 // Créer un socket UDP à l'écoute sur le port 9876
-                socket = new DatagramSocket(9876);
+                socket = new DatagramSocket(1234);
 
                 System.out.println("Serveur du Bar \"5 lettres\" en attente de commandes...");
 

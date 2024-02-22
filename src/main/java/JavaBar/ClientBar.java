@@ -7,7 +7,7 @@ public class ClientBar {
         try{
             DatagramSocket socket = new DatagramSocket();
             InetAddress serverAdress = InetAddress.getByName("localhost");
-            int serverPort = 9876;
+            int serverPort = 1234;
 
             //Envoie requête au serveur
 
