@@ -6,7 +6,7 @@ import java.net.*;
 public class ClientTCP {
     public static void main(String[] args) {
         try {
-            Socket clientSocket = new Socket("localhost", 9876);
+            Socket clientSocket = new Socket("localhost", 1111);
 
             PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
