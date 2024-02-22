@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68212891-d447-46d3-8bb6-c912e04595fd" name="Changes" comment="Client" />
+    <list default="true" id="68212891-d447-46d3-8bb6-c912e04595fd" name="Changes" comment="Servers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,14 +105,7 @@
       <option name="project" value="LOCAL" />
       <updated>1708614699682</updated>
     </task>
-    <task id="LOCAL-00006" summary="Client">
-      <created>1708615428151</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1708615428151</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +125,6 @@
     <MESSAGE value="ClientBar.java" />
     <MESSAGE value="Modification des ports" />
     <MESSAGE value="Fin JavaBar" />
-    <MESSAGE value="Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin JavaBar" />
   </component>
 </project>
